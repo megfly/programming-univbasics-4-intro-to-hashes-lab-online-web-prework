@@ -30,6 +30,7 @@ end
 def read_from_hash(hash, key)
   hash = {
     :name => "Steve"
+    :name => "Tzvi"
   }
   hash[:name]
 end
