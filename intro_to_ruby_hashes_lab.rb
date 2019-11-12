@@ -22,9 +22,8 @@ end
 
 def my_hash_creator(key, value)
   my_hash_creator = {
-    :name => "Grace Hopper"
+    (:name => "Grace Hopper")
   }
-  my_hash_creator.object_id
 end
 
 def read_from_hash(hash, key)
