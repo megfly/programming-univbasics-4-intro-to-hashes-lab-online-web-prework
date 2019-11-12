@@ -20,7 +20,7 @@ def id_generator
   }
 end
 
-def my_hash_creator(1, 2)
+def my_hash_creator(:name, "Grace Hopper")
   my_hash_creator = {
     :name => "Grace Hopper"
   }
